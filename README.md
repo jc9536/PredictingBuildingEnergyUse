@@ -131,10 +131,10 @@ print('RMSE is {}'.format(sklearn_train_rmse))
 print('R2 score is {}'.format(sklearn_train_r2))
 print("\n")
 ```
-The model performance for training set
---------------------------------------
-RMSE is 0.05696690583190874
-R2 score is 0.03406089875273177
+* The model performance for training set
+* --------------------------------------
+* RMSE is 0.05696690583190874
+* R2 score is 0.03406089875273177
 
 ```python
 # model evaluation for testing set
@@ -146,10 +146,10 @@ print("--------------------------------------")
 print('RMSE is {}'.format(sklearn_test_rmse))
 print('R2 score is {}'.format(sklearn_test_r2))
 ```
-The model performance for testing set
---------------------------------------
-RMSE is 0.059433268741077454
-R2 score is 0.028632425415091922
+* The model performance for testing set
+* --------------------------------------
+* RMSE is 0.059433268741077454
+* R2 score is 0.028632425415091922
 
 As good data scientists, however, we know that in order to really test the performance of our model, we can't test it on the same data it trained on. To assess the performance of the model on a held-out test set, we will need to upload the model predictions to the Kaggle competition site.
 
@@ -183,11 +183,11 @@ for i in range(5):
     print("Building {} has a predicted Site Energy Usage Intensity of: {}".format(building, float(y_predict[i])))
 ```
 
-Building 1 has a predicted Site Energy Usage Intensity of: 0.04028625457928511
-Building 2 has a predicted Site Energy Usage Intensity of: 0.038606573711669215
-Building 3 has a predicted Site Energy Usage Intensity of: 0.03803577471716468
-Building 4 has a predicted Site Energy Usage Intensity of: 0.04001643567934175
-Building 5 has a predicted Site Energy Usage Intensity of: 0.04075581762666478
+* Building 1 has a predicted Site Energy Usage Intensity of: 0.04028625457928511
+* Building 2 has a predicted Site Energy Usage Intensity of: 0.038606573711669215
+* Building 3 has a predicted Site Energy Usage Intensity of: 0.03803577471716468
+* Building 4 has a predicted Site Energy Usage Intensity of: 0.04001643567934175
+* Building 5 has a predicted Site Energy Usage Intensity of: 0.04075581762666478
 
 ```python
 # Save all the model predictions for site_eui as a .csv file
